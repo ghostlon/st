@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char font[] = "Source Code Pro:pixelsize=10";
-static int borderpx = 5;
+static char font[] = "Fira Mono:pixelsize=12";
+static int borderpx = 6;
 static char shell[] = "/bin/sh";
 
 /* Kerning / character bounding-box mutlipliers */
@@ -52,31 +52,31 @@ static unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 	/* 8 normal colors */
-	"#282a2e",
+	"#1d1f21",
 	"#cc6666",
 	"#b5bd68",
 	"#f0c674",
 	"#81a2be",
-	"#a3685a",
+	"#b294bb",
 	"#8abeb7",
-	"#e0e0e0",
+	"#c5c8c6",
 
 	/* 8 bright colors */
-	"#1d1f21",
-	"#de935f",
-	"#373b41",
 	"#969896",
-	"#b4b7b4",
+	"#cc6666",
+	"#b5bd68",
+	"#f0c674",
+	"#81a2be",
 	"#b294bb",
-	"#c5c8c6",
+	"#8abeb7",
 	"#ffffff",
 
 	[255] = 0,
 
 	/* more colors can be added after 255 to use with DefaultXX */
 
-        "#373b41",
-        "#ffffff",
+        "#c5c8c6",
+        "#1d1f21",
 
 };
 
